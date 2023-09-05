@@ -1,0 +1,15 @@
+.breadcrumb {
+  padding: 2.8125rem 0;
+}
+
+.breadcrumb-content {
+    color: var(--textDark);
+    font-family: var(--font-ubuntu);
+    font-size: 14px;
+}
+
+.breadcrumb-content a {
+    text-decoration: none;
+    color: var(--textLight);
+    
+}

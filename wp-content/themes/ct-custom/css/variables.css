@@ -1,0 +1,16 @@
+:root {
+    --orange: #ff6200;
+    --orangeDark: #be3600;
+    --white: #ffffff;
+    --dark: #525252;
+    --gray: #f9f9f9;
+    --textLight: #929292;
+    --textDark: #595959;
+
+    /* Fonts */
+    --font-bebas: 'Bebas Neue', sans-serif;
+    --font-manrope: 'Manrope', sans-serif;
+    --font-opensans: 'Open Sans', sans-serif;
+    --font-ubuntu: 'Ubuntu', sans-serif;
+
+}

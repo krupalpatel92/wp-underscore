@@ -1,0 +1,86 @@
+header.site-header {
+    padding: 2.18rem 0;
+    background-color: var(--gray);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 10.81rem;
+    height: 2.375rem;
+    object-fit: cover;
+    border: 0 none;
+}
+
+.main-navigation {
+    float: none;
+    width: auto;
+    display: inline-block;
+    max-width: 50%;
+}
+
+.main-navigation li {
+    padding: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-navigation li:last-child {
+    padding-right: 0;
+}
+
+.main-navigation li a {
+    font-size: 0.8125rem;
+    color: var(--textDark);
+    font-family: var(--font-ubuntu); /* Due to font "Myriad Pro" is not available for free simply using Ubuntu instead */
+    text-transform: uppercase;
+}
+
+
+.nav-menu li:hover::after {
+    content: "";
+    display: block;
+    width: 70%;
+    height: 5px;
+    background-color: var(--orange);
+    position: absolute;
+    bottom: 3px;
+}
+
+.nav-menu li:hover > ul.sub-menu > li:hover::after {
+    content: "";
+    display: block;
+    width: auto;
+    height: 0px;
+}
+
+.main-navigation ul ul {
+    box-shadow: none;
+    border: 1px solid var(--dark);
+}
+
+.main-navigation ul ul a {
+    width: auto;
+    display: block;
+    text-wrap: nowrap;
+}
+
+.main-navigation ul li:hover > ul, .main-navigation ul li.focus > ul {
+    top: 42px;
+    background-color: #fff;
+    padding: 8px 0;
+}
+
+.main-navigation ul li:hover > ul li, .main-navigation ul li.focus > ul li {
+    padding: 8px 12px;
+}
+
+.nav-menu li > ul.sub-menu > li > ul.sub-menu { 
+    top: -8px;
+    margin-left: 0px;
+}

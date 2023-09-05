@@ -1,0 +1,38 @@
+.action-bar{
+    background-color: var(--orange);
+    padding: 0.5rem 0;
+    text-transform: uppercase;
+    font-family: var(--font-bebas);
+    font-size: 0.92rem;
+    line-height: 1;
+    color: var(--orangeDark);
+}
+
+.action-bar span {
+    color: var(--white);
+    display: inline-block;
+    padding-left: 0.5rem;
+}
+
+.action-bar-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-bar-content a {
+    text-decoration: none;
+    color: var(--orangeDark);
+}
+
+#contactNumber a {
+    color: var(--white);
+}
+
+.action-bar-content a:hover{
+    color: var(--white);
+}
+
+.contact-number {
+    display: flex;
+    gap: 0.5rem;
+}
